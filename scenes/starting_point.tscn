@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bc1l4px82l038"]
+
+[ext_resource type="Texture2D" uid="uid://bcyx5x0qanjdn" path="res://Start (Idle).png" id="1_0kiri"]
+
+[node name="starting_point" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(14.5, -6.5)
+scale = Vector2(1.45313, 1.45313)
+texture = ExtResource("1_0kiri")
